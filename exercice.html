@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.scss">
+
+</head>
+
+<body>
+
+    <form id="formCnt" action="contact.php">
+        <label class="labelCnt" for="">Nom de famille
+            <input type="text" name="nom" placeholder="Nom">
+        </label>
+
+        <label class="labelCnt" for="">Prénom
+            <input type="text" name="prenom" placeholder="Prénom">
+        </label>
+
+        <label class="labelCnt" for="">E-Mail
+            <input type="email" name="mail" id="" placeholder="E-Mail">
+        </label>
+
+        <label class="labelCnt" for="">Téléphone
+            <input type="tel" name="mobile" id="" placeholder="Téléphone">
+        </label>
+
+        <label class="labelCnt" for="">adresse de domicile
+            <input type="text" name="adresse" placeholder="Adresse">
+        </label>
+
+
+        <div class="btns">
+            <button name="btnSub" type="submit">Envoyer</button>
+            <button type="reset">Annuler</button>
+        </div>
+    </form>
+
+
+    <!-- En supprimant l'attribut name du champ, la case nom existe mais sa valeur est vide + affichage d'une erreur-->
+
+    <!-- Aucune erreur-->
+
+</body>
+
+</html>

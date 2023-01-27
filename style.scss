@@ -1,0 +1,33 @@
+td {
+    border: solid 1px #000;
+}
+
+#formCnt {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+}
+
+.labelCnt {
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.labelCnt input {
+    padding: 10px;
+}
+
+.btns {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.btns button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+}
